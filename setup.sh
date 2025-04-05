@@ -52,9 +52,8 @@ done
 
 # Install and configure some languages with mise
 # Docs: https://mise.jdx.dev/
+# The mise activate is already in the zshrc
 curl https://mise.run | sh
-echo "eval \"\$($HOME/.local/bin/mise activate zsh)\"" >> "$HOME/.zshrc"
-. "$HOME/.zshrc"
 mise use --global node@22.14.0
 mise use --global java@temurin-21.0.3+9.0.LTS
 mise use --global rust@1.85.1
