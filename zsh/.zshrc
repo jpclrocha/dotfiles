@@ -22,6 +22,7 @@ export PATH=$HOME/.local/bin:$PATH
 # custom aliases
 alias ls="eza --icons=always --grid --bytes"
 alias cat="bat"
+alias dps="docker ps --format 'table {{.Image}}\t{{.Names}}\t{{.Status}}'"
 
 source $ZSH/oh-my-zsh.sh
 

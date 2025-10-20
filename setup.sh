@@ -81,4 +81,5 @@ $HOME/.local/bin/mise use --global usage
 # Rewritten in Rust: Modern Alternatives of Command-Line Tools
 # https://zaiste.net/posts/shell-commands-rust/
 # Yazi for browsing files in the terminal
-/home/jope/.cargo/bin/cargo install bat du-dust eza fd-find ripgrep yazi-cli yazi-fm
+/home/jope/.cargo/bin/cargo install bat du-dust eza fd-find ripgrep
+
