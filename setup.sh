@@ -72,7 +72,7 @@ done
 curl https://mise.run | sh
 $HOME/.local/bin/mise use --global node@22.14.0
 $HOME/.local/bin/mise use --global java@temurin-21.0.3+9.0.LTS
-$HOME/.local/bin/mise use --global rust@1.85.1
+$HOME/.local/bin/mise use --global rust
 $HOME/.local/bin/mise use --global maven@3.9.9
 $HOME/.local/bin/mise use --global go@1.24.2
 $HOME/.local/bin/mise use --global python@3.13.2
