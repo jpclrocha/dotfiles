@@ -20,10 +20,13 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export PATH=$HOME/.local/bin:$PATH
 
 # custom aliases
-alias ls="eza --icons=always --grid --bytes"
+alias bls="eza"
 alias dps="docker ps --format 'table {{.Image}}\t{{.Names}}\t{{.Status}}'"
 
 source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# opencode
+export PATH=/home/jope/.opencode/bin:$PATH
